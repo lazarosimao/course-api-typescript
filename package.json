@@ -6,7 +6,8 @@
   "scripts": {
     "start": "./node_modules/.bin/ts-node ./server/server.ts",
     "build": "tsc",
-    "builded": "node ./build/server.js"
+    "builded": "node ./build/server.js",
+    "dev": "yarn build && yarn builded"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
