@@ -1,6 +1,6 @@
-import * as mocha from 'mocha';
-import * as Chai from 'chai';
-import * as td from 'testdouble';
+import mocha from 'mocha';
+import Chai from 'chai';
+import td from 'testdouble';
 const supertest = require('supertest');
 import App from '../../../server/api/api';
 

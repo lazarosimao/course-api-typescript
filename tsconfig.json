@@ -8,7 +8,9 @@
     ],
     "types": [
       "node"
-    ]
+    ],
+    "allowSyntheticDefaultImports": true,  /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "esModuleInterop": true,  
   },
   "include": [
     "server/**/*.ts",
